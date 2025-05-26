@@ -18,6 +18,18 @@ A simple and elegant To-Do List Web App built using:
 ## 🚀 Run Locally
 
 1. Clone the repo:
-```bash
+
 git clone https://github.com/SalmaCHAOUI27/To-Do-List.git
 cd To-Do-List
+
+2. Install dependencies:
+   
+pip install -r requirements.txt
+
+3.Run the server:
+
+python app.py
+
+
+<span>Open</span> http://127.0.0.1:5000 in your browser 🌐
+
