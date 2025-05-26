@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-do-list 💾</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>To-do-list 📔</h2>
+  <input id="task" placeholder="add your task">
+  <input title="date" id="date" type="date">
+  <button onclick="addTask()">➕</button>
+  <ul id="container"></ul>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
